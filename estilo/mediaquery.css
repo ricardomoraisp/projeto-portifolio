@@ -4,6 +4,7 @@
     /*CLASSES GERAIS*/
     html{
         overflow-x: hidden;
+        max-width: 500px;
     }
     .flex{
         flex-direction: column;
