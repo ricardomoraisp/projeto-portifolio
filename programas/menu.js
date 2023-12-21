@@ -22,13 +22,13 @@ window.revelar = ScrollReveal({reset:true})
 
 //TOPO DO SITE//
 revelar.reveal('.efeito-txt-topo',{
-    duration: 2000,
+    duration: 1000,
     distance: '90px'
 
 })
 
 revelar.reveal('.efeito-img-topo',{
-    duration: 2000,
+    duration: 1000,
     distance: '90px',
     delay: 500
 
@@ -43,19 +43,19 @@ revelar.reveal('.titulo',{
 
 //SESSÃO DE ESPECIALIDADES//
 revelar.reveal('.efeito-especial1',{
-    duration: 2000,
+    duration: 1000,
     distance: '90px',
     delay: 500
 })
 
 revelar.reveal('.efeito-especial2',{
-    duration: 2000,
+    duration: 1000,
     distance: '90px',
     delay: 1000
 })
 
 revelar.reveal('.efeito-especial3',{
-    duration: 2000,
+    duration: 1000,
     distance: '90px',
     delay: 1500
 })

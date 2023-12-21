@@ -2,9 +2,10 @@
 
 @media screen and (max-width: 1020px){
     /*CLASSES GERAIS*/
-    html{
+    html, body{
         overflow-x: hidden;
-        max-width: 500px;
+        max-width: 800px;
+        
     }
     .flex{
         flex-direction: column;
@@ -42,6 +43,7 @@
 
     section.topo-do-site{
         padding: 20px 8%;
+        height: auto;
     }
 
     .topo-do-site .img-topo-site img{
@@ -76,8 +78,8 @@
         text-align: center;
     }
 
-    .img-sobre img{
-        width: 100%;
+    section.sobre .img-sobre img{
+        width: 340px;
 
     }
 
