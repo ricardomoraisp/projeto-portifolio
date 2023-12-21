@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1020px){
+    /*CLASSES GERAIS*/
+    html{
+        overflow-x: hidden;
+    }
+    .flex{
+        flex-direction: column;
+    }
+
+    h2.titulo{
+        font-size: 34px;
+        line-height: 30px;
+    }
+
+    .sobre .flex{
+        flex-direction: column-reverse;
+    }
+
+    .topo-do-site .flex{
+        flex-direction: column-reverse;
+    }
+
+
+    /*CABEÇALHO*/
+    .menu-desktop, .btn-contato{
+        display: none;
+    }
+
+    .btn-abrir{
+        display: block;
+    }
+
+    /*TOPO DE SITE*/
+
+    section.topo-do-site .flex{
+        gap: 40px;
+
+    }
+
+    section.topo-do-site{
+        padding: 20px 8%;
+    }
+
+    .topo-do-site .img-topo-site img{
+        width: 350px;
+    }
+
+    .topo-do-site h1{
+        font-size: 30px;
+
+    }
+
+    /*ESPECIALIDADES*/
+    section.especialidades{
+        padding: 40px 8%;
+        height: auto;
+    }
+
+    /*SOBRE*/
+    section.sobre{
+        padding: 80px 8%;
+        height: auto;
+        
+    }
+
+    .sobre .txt-sobre h2{
+        font-size: 34px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .btn-social{
+        text-align: center;
+    }
+
+    .img-sobre img{
+        width: 100%;
+
+    }
+
+    /*PORTIFOLIO*/
+    section.portifolio{
+        padding: 80px 8%;
+        height: auto;
+        
+    }
+
+    section.portifolio .flex{
+        gap: 60px;
+    }
+
+    .img-port{
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+    }
+
+    /*FOOTER*/
+    footer .line-footer{
+        text-align: center;
+    }
+}
